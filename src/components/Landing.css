@@ -1,0 +1,13 @@
+/** @format */
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(87, 87, 236);
+  width: 100%;
+  heigth: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: url(../images/backsplash1.svg); */
+  overflow: hidden;
+}

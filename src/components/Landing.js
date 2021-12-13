@@ -3,10 +3,11 @@
 import styled from "styled-components";
 import Sections from "./Sections";
 import Header from "./Header";
+import "./Landing.css";
 
 function Landing() {
   return (
-    <Container>
+    <Container className="Container">
       <Sections />
       <Header />
     </Container>
@@ -15,10 +16,4 @@ function Landing() {
 
 export default Landing;
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  background-color: lightblue;
-  width: 100%;
-  heigth: 100vh;
-`;
+const Container = styled.div``;
